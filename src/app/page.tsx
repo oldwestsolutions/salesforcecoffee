@@ -10,7 +10,7 @@ export default function Home() {
         <div className="w-full md:w-1/2 bg-gray-900 flex items-center justify-center p-8 md:p-12 order-2 md:order-1">
           <div className="text-center md:text-left max-w-md">
             <h1 className="text-4xl md:text-5xl font-light tracking-wider text-white mb-4">CREDIT COFFEE</h1>
-            <p className="text-sm md:text-base tracking-wider text-gray-300 mb-8">SEATTLE'S FINEST ARTISAN COFFEE</p>
+            <p className="text-sm md:text-base tracking-wider text-gray-300 mb-8">SEATTLE&apos;S FINEST ARTISAN COFFEE</p>
             <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <Link 
                 href="/menu" 

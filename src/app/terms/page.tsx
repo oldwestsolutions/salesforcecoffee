@@ -7,7 +7,7 @@ export default function TermsAndConditions() {
         <section>
           <h2 className="text-xl font-light tracking-wider text-gray-800 mb-4">Agreement to Terms</h2>
           <p>
-            By accessing or using Credit Coffee's services, you agree to be bound by these Terms and Conditions. 
+            By accessing or using Credit Coffee&apos;s services, you agree to be bound by these Terms and Conditions. 
             If you disagree with any part of these terms, you may not access our services.
           </p>
         </section>
