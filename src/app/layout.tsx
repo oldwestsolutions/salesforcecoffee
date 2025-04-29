@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 
-const geist = Geist({
-  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Credit Coffee - Seattle's Artisan Coffee",
-  description: "Experience Seattle's finest artisan coffee in a cozy, woodsy atmosphere. Where every cup is crafted with care.",
+  title: "Salesforce Coffee",
+  description: "Your favorite coffee shop",
 };
 
 export default function RootLayout({
@@ -19,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geist.className} antialiased bg-gray-50`}>
+      <body className={inter.className}>
         {/* Navigation */}
         <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-100">
           <div className="max-w-6xl mx-auto px-4">
